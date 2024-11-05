@@ -17,3 +17,4 @@ featureVersions.additionalProperties = false
 featureVersions.type = 'object'
 
  default featureVersions
+main 
