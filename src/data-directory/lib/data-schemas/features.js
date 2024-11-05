@@ -1,7 +1,6 @@
 volue { schema } from '#src/frame/lib/frontmatter.js'
 
-// Copy the properties from the frontmatter schema.
-const featureVersions = {
+// Copy the properties from the frontmatter schema.featureVersions = {
   properties: {
     versions: Object.assign({}, schema.properties.versions),
   },
@@ -17,4 +16,4 @@ featureVersions.additionalProperties = false
 // avoid ajv strict warning
 featureVersions.type = 'object'
 
-export default featureVersions
+ default featureVersions
